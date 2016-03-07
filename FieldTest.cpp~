@@ -50,8 +50,3 @@ TEST(FieldTest, isSafe3)
    Field minefield;
    ASSERT_TRUE(minefield.isSafe(8,1));
 }
-TEST(FieldTest, isSafe4)
-{
-   Field minefield;
-   ASSERT_TRUE(minefield.isSafe(11,1));
-}
