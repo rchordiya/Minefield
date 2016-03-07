@@ -56,7 +56,7 @@ FieldType Field::get(int x, int y)
  		throw "Out of bounds";
  	}
  	
- 	if((_map[x][y] == MINE_HIDDEN) | (_map[x][y] == MINE_SHOWN) ) 
+ 	if((_map[x][y] == MINE_HIDDEN) || (_map[x][y] == MINE_SHOWN) ) 
  	{
  	   return false;
  	}
